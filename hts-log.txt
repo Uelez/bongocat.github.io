@@ -1,0 +1,12 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 04 Apr 2024 21:43:34 at https://www.bongocat.co/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.bongocat.co/ -O1 "D:\Websites\bongox" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+21:43:35	Warning: 	Note: due to https://www.bongocat.co remote robots.txt rules, links beginning with these path will be forbidden: / (see in the options to disable this)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 seconds : 6 links scanned, 5 files written (2438586 bytes overall) [225472 bytes received at 112736 bytes/sec], 2438586 bytes transferred using HTTP compression in 5 files, ratio 9%, 1.5 requests per connection
+(No errors, 1 warnings, 0 messages)
