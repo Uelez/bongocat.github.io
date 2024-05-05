@@ -1,7 +1,0 @@
-date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
-21:43:35	36/36	---M--	200	added ('OK')	text/plain	etag:%22829c9bc03b53f19910b67e3f01813c7a%22	https://www.bongocat.co/robots.txt		(from )
-21:43:35	33915/33915	---MCZ	200	added ('OK')	text/html	etag:W/%222459e9d6546a988a9eb6a67ce4aabb7f%22	https://www.bongocat.co/	D:/Websites/bongox/www.bongocat.co/index.html	(from )
-21:43:35	87533/87533	---M-Z	200	added ('OK')	application/javascript	etag:%2264ed75bb-76fe%22	https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js	D:/Websites/bongox/cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js	(from https://www.bongocat.co/)
-21:43:35	2148957/2148957	---MCZ	200	added ('OK')	text/css	etag:W/%2220ca5d-HD+f0Q1WxhZq+QzRrehAdOSAQ+I%22	https://cdn.jsdelivr.net/npm/daisyui@4.9.0/dist/full.min.css	D:/Websites/bongox/cdn.jsdelivr.net/npm/daisyui@4.9.0/dist/full.min.css	(from https://www.bongocat.co/)
-21:43:35	18433/18433	---MCZ	200	added ('OK')	text/css	etag:W/%224801-3QMQ7KS0bJBr69rddyQ1OYNpFKw%22	https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css	D:/Websites/bongox/cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css	(from https://www.bongocat.co/)
-21:43:36	149748/149748	---MCZ	200	added ('OK')	application/javascript	etag:W/%22248f4-UbKgCErTdO/FBJ9XWCSBOZmacxw%22	https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js	D:/Websites/bongox/cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js	(from https://www.bongocat.co/)

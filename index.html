@@ -1,134 +1,749 @@
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-
+<!DOCTYPE html>
+<html lang="en">
+  
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<style type="text/css">
-	<!--
+    <meta charset="UTF-8" />
+    <title>Bongo Cat</title>
+    <!-- Primary Meta Tags -->
+    <title>Bongo Cat - Internet meme</title>
+    <meta name="title" content="Bongo Cat - Internet meme" />
+    <meta
+      name="description"
+      content="Bongo Cat coin is a cat theme token that focuses on community decentralization and adoption. $BONGO is designed to make memeCoins great"
+    />
 
-body {
-	margin: 0;  padding: 0;  margin-bottom: 15px;  margin-top: 8px;
-	background: #77b;
-}
-body, td {
-	font: 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
-	}
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:title" content="Bongo Cat - Internet meme" />
+    <meta
+      property="og:description"
+      content="Bongo Cat coin is a cat theme token that focuses on community decentralization and adoption. $BONGO is designed to make memeCoins great"
+    />
+    <meta property="og:image" content="https://www.bongocat.co/sharing.png" />
 
-#subTitle {
-	background: #000;  color: #fff;  padding: 4px;  font-weight: bold; 
-	}
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta property="twitter:title" content="Bongo Cat - Internet meme" />
+    <meta
+      property="twitter:description"
+      content="Bongo Cat coin is a cat theme token that focuses on community decentralization and adoption. $BONGO is designed to make memeCoins great"
+    />
+    <meta property="twitter:image" content="https://www.bongocat.co/sharing.png" />
 
-#siteNavigation a, #siteNavigation .current {
-	font-weight: bold;  color: #448;
-	}
-#siteNavigation a:link    { text-decoration: none; }
-#siteNavigation a:visited { text-decoration: none; }
+    <!-- Meta Tags Generated with https://metatags.io -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://www.bongocat.co/meta/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://www.bongocat.co/meta/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://www.bongocat.co/meta/favicon-16x16.png"
+    />
 
-#siteNavigation .current { background-color: #ccd; }
+    <link rel="shortcut icon" href="https://www.bongocat.co/meta/favicon.ico" />
 
-#siteNavigation a:hover   { text-decoration: none;  background-color: #fff;  color: #000; }
-#siteNavigation a:active  { text-decoration: none;  background-color: #ccc; }
+    <meta name="theme-color" content="#ffffff" />
 
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+    <link href="https://www.bongocat.co/style/style.css" rel="stylesheet" />
+    <link href="https://www.bongocat.co/style/bongo.css" rel="stylesheet" />
+    <script
+      src="../cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://www.bongocat.co/js/lowLag.js"></script>
+    <script src="https://www.bongocat.co/js/sm2/js/soundmanager2-nodebug-jsmin.js"></script>
+    <script src="https://www.bongocat.co/js/core.js"></script>
+    <link
+      href="../cdn.jsdelivr.net/npm/daisyui%404.9.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "4129861641e747a6ad1af2367c203790"}'
+    ></script> -->
+    <link
+      rel="stylesheet"
+      href="../cdn.jsdelivr.net/npm/swiper%4011/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com/"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          container: {
+            screens: {
+              sm: "600px",
+              md: "728px",
+              lg: "984px",
+              xl: "1240px",
+              "2xl": "1496px",
+            },
+          },
+          colors: {
+            "main-gradient-top": "#7fdae7",
+            "main-gradient-middle": "#cacefd",
+            "main-gradient-bottom": "#edcae2",
+            white: "#fff",
+            black: "#000",
+          },
+        },
+      };
+    </script>
 
-a:link    { text-decoration: underline;  color: #00f; }
-a:visited { text-decoration: underline;  color: #000; }
-a:hover   { text-decoration: underline;  color: #c00; }
-a:active  { text-decoration: underline; }
+    <script src="https://www.bongocat.co/js/script.js"></script>
+  </head>
 
-#pageContent {
-	clear: both;
-	border-bottom: 6px solid #000;
-	padding: 10px;  padding-top: 20px;
-	line-height: 1.65em;
-	background-image: url(backblue.gif);
-	background-repeat: no-repeat;
-	background-position: top right;
-	}
+  <body class="text-black">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a
+            href="https://twitter.com/sol_BongoCat"
+            target="_blank"
+            id="github"
+            class="absolute top-0 right-0"
+          >
+            <img src="https://www.bongocat.co/images/bongcat/twitter-x.png" alt=""
+          /></a>
+          <a
+            href="https://t.me/sol_bongocat"
+            target="_blank"
+            id="github"
+            class="telegram-cornor"
+          >
+            Telegram</a
+          >
+          <header></header>
+          <div class="logo-wrapper">
+            <div class="top-logo">
+              <img src="https://www.bongocat.co/images/bongcat/logo-text.png" alt="" />
+              <img src="https://www.bongocat.co/images/bongcat/solana.svg" alt="" />
+            </div>
+          </div>
 
-#pageContent, #siteNavigation {
-	background-color: #ccd;
-	}
+          <div id="container">
+            <hr />
+            <img
+              class="bongo-animation"
+              src="https://www.bongocat.co/images/bongcat/bongo-animation-2.gif"
+              alt=""
+            />
+            <img
+              class="bongo-animation-right hidden md:block"
+              src="https://www.bongocat.co/images/bongcat/bongo-animation.gif"
+              alt=""
+            />
+            <div class="cat">
+              <div id="head"></div>
+              <div id="mouth"></div>
+              <div id="paw-left"></div>
+              <div id="paw-right"></div>
+            </div>
+            <div class="instruments">
+              <div id="bongo"></div>
+              <div id="keyboard"></div>
+              <div id="cymbal"></div>
+              <div id="marimba"></div>
+              <div id="tambourine"></div>
+              <div id="cowbell"></div>
+            </div>
+          </div>
+          <div id="touch">
+            <div id="layers">
+              <select id="select-instrument">
+                <option value="layer-bongo" i18n="Bongos" selected>
+                  Bongos
+                </option>
+                <option value="layer-keyboard" i18n="Keyboard">Keyboard</option>
+                <option value="layer-meow" i18n="Meow">Meow</option>
+                <option value="layer-cymbal" i18n="Cymbal">Cymbal</option>
+                <option value="layer-marimba" i18n="Marimba">Marimba</option>
+                <option value="layer-tambourine" i18n="Tambourine">
+                  Tambourine
+                </option>
+                <option value="layer-cowbell" i18n="Cowbell">Cowbell</option>
+              </select>
+            </div>
+            <div id="taps">
+              <div class="tap" id="tap-left">
+                <span i18n="LEFT">LEFT</span>
+              </div>
+              <div class="tap" id="tap-right">
+                <span i18n="RIGHT">RIGHT</span>
+              </div>
+              <div class="tap" id="tap-space">
+                <span i18n="MEOW">MEOW</span>
+              </div>
+              <div id="tap-keys">
+                <div>
+                  <div class="tap" id="tap-1"><span>1</span></div>
+                  <div class="tap" id="tap-2"><span>2</span></div>
+                  <div class="tap" id="tap-3"><span>3</span></div>
+                  <div class="tap" id="tap-4"><span>4</span></div>
+                  <div class="tap" id="tap-5"><span>5</span></div>
+                </div>
+                <div>
+                  <div class="tap" id="tap-6"><span>6</span></div>
+                  <div class="tap" id="tap-7"><span>7</span></div>
+                  <div class="tap" id="tap-8"><span>8</span></div>
+                  <div class="tap" id="tap-9"><span>9</span></div>
+                  <div class="tap" id="tap-0"><span>0</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          <footer>
+            <div
+              class="flex justify-between items-end gap-4 container mx-auto px-4"
+            >
+              <div class="flex-1">
+                <div
+                  class="flex flex-col items-start text-4xl md:mb-0 mb-8 w-full md:w-auto gap-4"
+                >
+                  <a href="https://twitter.com/sol_BongoCat" class="mb-1">Twitter</a
+                  ><a href="https://t.me/sol_bongocat" class="mb-1">Telegram</a>
+                  <div class="mb-1 flex items-center gap-4 md:w-auto w-full">
+                    <a href="https://solscan.io/token/8wn9iboFENcXPvvkgVNwxAA3c9qCqCFsyyohrbxkhEJW">CONTRACT</a>
+                    <a href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=8wn9iboFENcXPvvkgVNwxAA3c9qCqCFsyyohrbxkhEJW" target="_blank">
+                      <div
+                        style="min-width: 120px"
+                        class="flex group rounded-xl mx-auto bg-gradient-to-tr from-main-gradient-top via-main-gradient-middle to-main-gradient-bottom p-[2px] shadow-xl"
+                      >
+                        <button
+                          class="flex-1 font-bold md:text-xl bg-white px-4 py-2 rounded-xl hover:bg-gradient-to-tr hover:from-main-gradient-top hover:via-main-gradient-middle hover:to-main-gradient-bottom"
+                        >
+                          <span
+                            class="bg-gradient-to-tr from-main-gradient-top via-main-gradient-middle to-main-gradient-bottom text-transparent bg-clip-text group-hover:text-white"
+                            >BUY</span
+                          >
+                        </button>
+                      </div></a
+                    >
+                    <a href="https://dexscreener.com/solana/8wn9iboFENcXPvvkgVNwxAA3c9qCqCFsyyohrbxkhEJW" target="_blank">
+                      <div
+                        style="min-width: 120px"
+                        class="flex group rounded-xl mx-auto bg-gradient-to-tr from-main-gradient-top via-main-gradient-middle to-main-gradient-bottom p-[2px] shadow-xl"
+                      >
+                        <button
+                          class="flex-1 font-bold md:text-xl bg-white px-4 py-2 rounded-xl hover:bg-gradient-to-tr hover:from-main-gradient-top hover:via-main-gradient-middle hover:to-main-gradient-bottom"
+                        >
+                          <span
+                            class="bg-gradient-to-tr from-main-gradient-top via-main-gradient-middle to-main-gradient-bottom text-transparent bg-clip-text group-hover:text-white"
+                            >Chart</span
+                          >
+                        </button>
+                      </div></a
+                    >
+                  </div>
 
-.imgLeft  { float: left;   margin-right: 10px;  margin-bottom: 10px; }
-.imgRight { float: right;  margin-left: 10px;   margin-bottom: 10px; }
+                  <div
+                    data-tip="Click to copy"
+                    class="tooltip cursor-pointer addressContract w-full rounded-lg bg-gradient-to-b from-main-gradient-top via-main-gradient-middle to-main-gradient-bottom p-[2px]"
+                  >
+                    <div
+                      class="flex gap-1 h-full w-full items-center justify-center bg-white back text-xl rounded-lg px-4 py-2"
+                    >
+                      8wn9iboFENcXPvvkgVNwxAA3c9qCqCFsyyohrbxkhEJW
+                      <button>
+                        <img
+                          class="w-8 h-auto hover:brightness-90"
+                          src="https://www.bongocat.co/images/bongcat/copy.svg"
+                          alt=""
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="keys">
+                <div>
+                  <span i18n="Bongos">Bongos</span>
+                  <span class="key">A</span>
+                  <span class="key">D</span>
+                </div>
+                <div>
+                  <span i18n="Cymbal">Cymbal</span>
+                  <span class="key">C</span>
+                </div>
+                <div>
+                  <span i18n="Cowbell">Cowbell</span>
+                  <span class="key">F</span>
+                </div>
+                <div>
+                  <span i18n="Tambourine">Tambourine</span>
+                  <span class="key">B</span>
+                </div>
+                <div>
+                  <span i18n="Meow">Meow</span>
+                  <span i18n="SPACE" class="key key-wide">SPACE</span>
+                </div>
+                <div>
+                  <span i18n="Piano">Piano</span>
+                  <span class="key">1</span> ...
+                  <span class="key">9</span>
+                  <span class="key">0</span>
+                </div>
+                <div>
+                  <span i18n="Marimba">Marimba</span>
+                  <span class="key">Q</span>
+                  <span class="key">W</span> ...
+                  <span class="key">P</span>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+        <div class="swiper-slide">
+          <div class="container mx-auto px-4 text-center">
+            <div class="h-screen flex flex-col justify-center gap-4">
+              <!-- <span class="main-gradient main-title"
+                >What is the Bongo Cat?</span
+              > -->
+              <img
+                class="h-28 w-fit mx-auto object-contain"
+                src="https://www.bongocat.co/images/bongcat/title-what.png"
+                alt=""
+              />
+              <div class="flex gap-4 justify-between flex-col md:flex-row">
+                <div
+                  class="flex-1 rounded-xl bg-gradient-to-b from-main-gradient-top via-main-gradient-middle to-main-gradient-bottom p-1 shadow-xl"
+                >
+                  <div
+                    class="flex h-full w-full items-center justify-center bg-white back text-base md:text-3xl rounded-xl p-4"
+                  >
+                    Bongo Cat is an Internet meme that originated when a Twitter
+                    user created and tweeted a GIF of a white cat-like blob
+                    smacking a table with its two paws. The tweet was then
+                    replied to by another Twitter user with an edited version of
+                    the GIF including bongos hit to the tune of a Super Mario
+                    World track.
+                    <br />
+                    Bongo Cat coin is a cat theme token that focuses on
+                    community decentralization and adoption. $BONGO is designed
+                    to make memeCoins great
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <img
+                    class="mx-auto w-3/4 md:w-auto"
+                    src="https://www.bongocat.co/images/bongcat/36523875.png"
+                    alt=""
+                  />
+                  <a href="https://t.me/sol_bongocat" target="_blank">
+                    <div
+                      style="max-width: 240px"
+                      class="flex group rounded-xl mx-auto bg-gradient-to-tr from-main-gradient-top via-main-gradient-middle to-main-gradient-bottom p-1 shadow-xl"
+                    >
+                      <button
+                        class="flex-1 font-bold md:text-xl bg-white px-6 py-3 rounded-xl hover:bg-gradient-to-tr hover:from-main-gradient-top hover:via-main-gradient-middle hover:to-main-gradient-bottom"
+                      >
+                        <span
+                          class="bg-gradient-to-tr from-main-gradient-top via-main-gradient-middle to-main-gradient-bottom text-transparent bg-clip-text group-hover:text-white"
+                          >Join Community</span
+                        >
+                      </button>
+                    </div></a
+                  >
+                  <!---->
+                  <div
+                    class="flex gap-4 items-center justify-center mt-2 md:mt-4"
+                  >
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      -->
+        <div class="swiper-slide">
+          <div class="container mx-auto px-4 text-center">
+            <div class="h-screen flex flex-col justify-center gap-4">
+              <!-- <span class="main-gradient main-title">The Bongo Cat song</span> -->
+              <img
+                class="h-28 w-fit mx-auto object-contain"
+                src="https://www.bongocat.co/images/bongcat/title-song.png"
+                alt=""
+              />
+              <div
+                class="text-center text-white text-2xl md:text-4xl w-3/4 mx-auto mb-8"
+              >
+                These songs are performed by Bongo Cat
+              </div>
+              <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <video class="h-full w-full rounded-lg cursor-pointer" controls>
+                  <source
+                    src="https://www.bongocat.co/videos/Bongo Cat - Believer - Imagine Dragons.mp4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+                <video
+                  class="h-full w-full rounded-lg cursor-pointer"
+                  poster="https://www.bongocat.co/images/bongcat/poster1.png"
+                  controls
+                >
+                  <source
+                    src="https://www.bongocat.co/videos/Bongo Cat - FRIENDS.mp4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+                <video
+                  class="h-full w-full rounded-lg cursor-pointer"
+                  poster="https://www.bongocat.co/images/bongcat/poster2.png"
+                  controls
+                >
+                  <source
+                    src="https://www.bongocat.co/videos/Bongo Cat - Savage Cat 🎧.mp4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+                <video
+                  class="h-full w-full rounded-lg cursor-pointer"
+                  poster="https://www.bongocat.co/images/bongcat/poster3.png"
+                  controls
+                >
+                  <source
+                    src="https://www.bongocat.co/videos/Bongo Cat - See You Again 🎧.mp4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+                <video class="h-full w-full rounded-lg cursor-pointer" controls>
+                  <source
+                    src="https://www.bongocat.co/videos/Bongo Cat - Chicken.mp4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+                <video class="h-full w-full rounded-lg cursor-pointer" controls>
+                  <source
+                    src="https://www.bongocat.co/videos/Bongo Cat plays _Alan Walker - Faded_ - Toy Chicken.mp4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+                <video class="h-full w-full rounded-lg cursor-pointer" controls>
+                  <source
+                    src="https://www.bongocat.co/videos/David Bongo - Titanium ft. Moew 🎧.mp4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+                <video class="h-full w-full rounded-lg cursor-pointer" controls>
+                  <source
+                    src="https://www.bongocat.co/videos/Tones and I - Dance Monkey 🎧.mp4"
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="container mx-auto px-4 text-center">
+            <div class="h-screen flex flex-col justify-center gap-4">
+              <!-- <span class="main-gradient main-title">Bongonomics</span> -->
+              <img
+                class="h-28 w-fit mx-auto object-contain"
+                src="https://www.bongocat.co/images/bongcat/title-bongonomics.png"
+                alt=""
+              />
+              <div
+                class="flex gap-4 items- justify-center flex-col md:flex-row"
+              >
+                <div class="">
+                  <img
+                    class="w-3/4 h-auto mx-auto md:mx-0 md:w-full"
+                    src="https://www.bongocat.co/images/bongcat/bongo-animation.gif"
+                    alt=""
+                  />
+                </div>
+                <div
+                  class="flex flex-col gap-1 text-white items-center md:items-start"
+                >
+                  <div class="flex gap-1 items-center flex-col md:flex-row">
+                    <div class="text-3xl">Total Supply</div>
+                    <div class="main-gradient text-5xl drop-shadow-xl">
+                      999,999,999 BONGO
+                    </div>
+                  </div>
+                  <div
+                    class="text-3xl flex flex-col md:flex-row gap-1 items-center"
+                  >
+                    Tax Buy/Sell
+                    <span class="main-gradient text-5xl drop-shadow-xl"
+                      >0%</span
+                    >
+                  </div>
+                  <div class="text-3xl">Contract Address on Solana</div>
+                  <div
+                    data-tip="Click to copy"
+                    class="tooltip md:mt-4 cursor-pointer addressContract w-full rounded-lg bg-gradient-to-b from-main-gradient-top via-main-gradient-middle to-main-gradient-bottom p-[2px]"
+                  >
+                    <div
+                      class="flex text-black h-full w-full items-center justify-center gap-1 bg-white back text-xs md:text-xl rounded-lg px-4 py-2"
+                    >
+                      8wn9iboFENcXPvvkgVNwxAA3c9qCqCFsyyohrbxkhEJW
+                      <button>
+                        <img
+                          class="w-8 h-auto hover:brightness-90"
+                          src="https://www.bongocat.co/images/bongcat/copy.svg"
+                          alt=""
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="container mx-auto px-4">
+            <div class="h-screen flex flex-col justify-center gap-4">
+              <!-- <span class="main-gradient main-title mx-auto">FAQ</span> -->
+              <img
+                class="h-11 md:h-28 w-fit mx-auto object-contain"
+                src="https://www.bongocat.co/images/bongcat/title-faq.png"
+                alt=""
+              />
+              <div
+                class="text-center text-white text-2xl md:text-4xl w-full md:w-1/2 mx-auto mb-2"
+              >
+                Have a question? Here's answers to the most commonly asked
+                questions.
+              </div>
+              <div class="flex gap-2 items-center flex-col md:flex-row">
+                <img
+                  class="w-fit h-fit hidden md:block"
+                  src="https://www.bongocat.co/images/bongcat/faq-left.gif"
+                  alt=""
+                />
+                <div>
+                  <div
+                    class="w-full rounded-xl bg-gradient-to-r from-main-gradient-top via-main-gradient-middle to-main-gradient-bottom p-1 mb-2"
+                  >
+                    <div
+                      class="flex h-full w-full items-center justify-center bg-white back text-2xl rounded-xl text-black"
+                    >
+                      <div class="collapse collapse-plus">
+                        <input type="radio" name="my-accordion-3" />
+                        <div
+                          class="collapse-title text-2xl md:text-4xl font-bold"
+                        >
+                          <span
+                            class="bg-gradient-to-tr from-main-gradient-top via-main-gradient-middle to-main-gradient-bottom text-transparent bg-clip-text"
+                            >Why is Bongo Cat a meme?</span
+                          >
+                        </div>
+                        <div class="collapse-content">
+                          <p class="text-base md:text-xl">
+                            Bongo Cat is an Internet meme that originated when a
+                            Twitter user created and tweeted a GIF of a white
+                            cat-like blob smacking a table with its two paws.
+                            The tweet was then replied to by another Twitter
+                            user with an edited version of the GIF including
+                            bongos hit to the tune of a Super Mario World track.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full rounded-xl bg-gradient-to-r from-main-gradient-top via-main-gradient-middle to-main-gradient-bottom p-1 mb-2"
+                  >
+                    <div
+                      class="flex h-full w-full items-center justify-center bg-white back text-2xl rounded-xl text-black"
+                    >
+                      <div class="collapse collapse-plus">
+                        <input type="radio" name="my-accordion-3" />
+                        <div
+                          class="collapse-title text-2xl md:text-4xl font-bold"
+                        >
+                          <span
+                            class="bg-gradient-to-tr from-main-gradient-top via-main-gradient-middle to-main-gradient-bottom text-transparent bg-clip-text"
+                            >Why is Bongo Cat so cute?</span
+                          >
+                        </div>
+                        <div class="collapse-content">
+                          <p class="text-base md:text-xl">
+                            Bongo Cat is an adorable drawing of a cat-like
+                            figure with pointed ears, a pleasant smile, and
+                            little pink paws that pat on whatever instrument its
+                            creators add. The little cat, which seems to embody
+                            all that is good in the world, brings joy to the
+                            internet with its endless knowledge of songs.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full rounded-xl bg-gradient-to-r from-main-gradient-top via-main-gradient-middle to-main-gradient-bottom p-1 mb-2"
+                  >
+                    <div
+                      class="flex h-full w-full items-center justify-center bg-white back text-2xl rounded-xl text-black"
+                    >
+                      <div class="collapse collapse-plus">
+                        <input type="radio" name="my-accordion-3" />
+                        <div
+                          class="collapse-title text-2xl md:text-4xl font-bold"
+                        >
+                          <span
+                            class="bg-gradient-to-tr from-main-gradient-top via-main-gradient-middle to-main-gradient-bottom text-transparent bg-clip-text"
+                          >
+                            How much Tax to buy ?</span
+                          >
+                        </div>
+                        <div class="collapse-content">
+                          <p class="text-base md:text-xl">
+                            You don't have to worry about purchasing with a
+                            specified slippage because we have no taxes; but,
+                            during volatile markets, you could need to employ
+                            slippage.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full rounded-xl bg-gradient-to-r from-main-gradient-top via-main-gradient-middle to-main-gradient-bottom p-1 mb-2"
+                  >
+                    <div
+                      class="flex h-full w-full items-center justify-center bg-white back text-2xl rounded-xl text-black"
+                    >
+                      <div class="collapse collapse-plus">
+                        <input type="radio" name="my-accordion-3" />
+                        <div
+                          class="collapse-title text-2xl md:text-4xl font-bold"
+                        >
+                          <span
+                            class="bg-gradient-to-tr from-main-gradient-top via-main-gradient-middle to-main-gradient-bottom text-transparent bg-clip-text"
+                          >
+                            What is the Ticker of Bongo Cat coin?</span
+                          >
+                        </div>
+                        <div class="collapse-content">
+                          <p class="text-base md:text-xl">
+                            Bongo Cat coin Ticker is $BONGO
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full rounded-xl bg-gradient-to-r from-main-gradient-top via-main-gradient-middle to-main-gradient-bottom p-1 mb-2"
+                  >
+                    <div
+                      class="flex h-full w-full items-center justify-center bg-white back text-2xl rounded-xl text-black"
+                    >
+                      <div class="collapse collapse-plus">
+                        <input type="radio" name="my-accordion-3" />
+                        <div
+                          class="collapse-title text-2xl md:text-4xl font-bold"
+                        >
+                          <span
+                            class="bg-gradient-to-tr from-main-gradient-top via-main-gradient-middle to-main-gradient-bottom text-transparent bg-clip-text"
+                          >
+                            How can I Buy Bongo Cat coin ($BONGO) ?</span
+                          >
+                        </div>
+                        <div class="collapse-content">
+                          <p class="text-base md:text-xl">
+                            Create a new Sol Wallet with Phantom. Click Here to
+                            create your new wallet.
+                            <br />
+                            Buy some SOL at an exchange (for example: Binance or
+                            Coinbase), and send your SOL to your Phantom Wallet
+                            Address.
+                            <br />
+                            Now, connect your wallet to Pinksale and buy your
+                            tokens at presale.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="gap-4 items-end flex md:hidden">
+                  <img
+                    class="w-fit h-44 block md:hidden"
+                    src="https://www.bongocat.co/images/bongcat/faq-left.gif"
+                    alt=""
+                  />
+                  <img
+                    class="w-fit h-52 md:h-96 object-contain"
+                    src="https://www.bongocat.co/images/bongcat/faq-right.gif"
+                    alt=""
+                  />
+                </div>
+                <img
+                  class="w-fit h-52 md:h-96 object-contain hidden md:block"
+                  src="https://www.bongocat.co/images/bongcat/faq-right.gif"
+                  alt=""
+                />
+              </div>
 
-hr { height: 1px;  color: #000;  background-color: #000;  margin-bottom: 15px; }
+              <!--  -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </body>
+  <script src="../cdn.jsdelivr.net/npm/swiper%4011/swiper-bundle.min.js"></script>
 
-h1 { margin: 0;  font-weight: bold;  font-size: 2em; }
-h2 { margin: 0;  font-weight: bold;  font-size: 1.6em; }
-h3 { margin: 0;  font-weight: bold;  font-size: 1.3em; }
-h4 { margin: 0;  font-weight: bold;  font-size: 1.18em; }
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      initialSlide: 0,
+      direction: "vertical",
+      slidesPerView: 1,
+      spaceBetween: 30,
+      mousewheel: true,
 
-.blak { background-color: #000; }
-.hide { display: none; }
-.tableWidth { min-width: 400px; }
-
-.tblRegular       { border-collapse: collapse; }
-.tblRegular td    { padding: 6px;  background-image: url(fade.gif);  border: 2px solid #99c; }
-.tblHeaderColor, .tblHeaderColor td { background: #99c; }
-.tblNoBorder td   { border: 0; }
-
-
-// -->
-</style>
-
-</head>
-
-<table width="76%" border="0" align="center" cellspacing="0" cellpadding="3" class="tableWidth">
-	<tr>
-	</tr>
-</table>
-<table width="76%" border="0" align="center" cellspacing="0" cellpadding="0" class="tableWidth">
-<tr class="blak">
-<td>
-	<table width="100%" border="0" align="center" cellspacing="1" cellpadding="0">
-	<tr>
-	<td colspan="6"> 
-		<table width="100%" border="0" align="center" cellspacing="0" cellpadding="10">
-		<tr> 
-		<td id="pageContent"> 
-<!-- ==================== End prologue ==================== -->
-
-</HEAD>
-<BODY>
-<H1 ALIGN=Center>Index of locally available sites:</H1>
-	<TABLE BORDER="0" WIDTH="100%" CELLSPACING="1" CELLPADDING="0">
-		<TR>
-			<TD BACKGROUND="fade.gif">
-				&middot;
-					<A HREF="bongocat/index.html">
-						Bongo Cat
-					</A>		
-			</TD>
-		</TR>
-	</TABLE>
-	<BR>
-	<BR>
-	<BR>
-  	<H6 ALIGN="RIGHT">
-	</H6>
-	<meta HTTP-EQUIV="Refresh" CONTENT="0; URL=bongocat/index.html">
-
-
-<!-- ==================== Start epilogue ==================== -->
-		</td>
-		</tr>
-		</table>
-	</td>
-	</tr>
-	</table>
-</td>
-</tr>
-</table>
-
-<table width="76%" border="0" align="center" valign="bottom" cellspacing="0" cellpadding="0">
-	<tr>
-	<td id="footer"><small>&copy; 2008 Xavier Roche & other contributors - Web Design: Leto Kauler.</small></td>
-	</tr>
-</table>
-
-</body>
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+  <script>
+    const address = document.querySelector(".addressContract");
+    address.addEventListener("click", () => {
+      navigator.clipboard.writeText(
+        "8wn9iboFENcXPvvkgVNwxAA3c9qCqCFsyyohrbxkhEJW"
+      );
+    });
+  </script>
 
 </html>
-
-
